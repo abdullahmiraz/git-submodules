@@ -14,3 +14,7 @@
 | 11   | Stage the updated submodule reference         | `git add .`                                         | `git add .` |
 | 12   | Commit the updated submodule reference        | `git commit -m "Updated ema-john-simple submodule reference"` | `git commit -m "Updated ema-john-simple submodule reference"` |
 | 13   | Push the changes to the parent repository's remote | `git push origin main`                             | `git push origin main` |
+
+
+**Note**:  
+Please note that Steps 5 to 13 are optional and intended for making changes to the submodule and updating the parent repository to reflect those changes. If you only want to initialize the submodule and don't need to make any changes immediately, you can skip those optional steps.
