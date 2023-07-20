@@ -1,0 +1,53 @@
+# Step 1: Navigate to the root directory of your parent repository
+cd /path/to/your/parent_repository
+# Example: cd "J:/Web Development by Programming Hero/Milestone 8 - Simple React"
+
+# Step 2: Initialize the submodule using git submodule add
+git submodule add <submodule_url> <submodule_path>
+# Example: git submodule add https://github.com/abdullahmiraz/ema-john-shopping.git "Milestone 8 - Simple React/ema-john-simple"
+
+# Step 3: Commit the changes after adding the submodule
+git add .
+# Example: git add .
+git commit -m "Added ema-john-simple submodule"
+# Example: git commit -m "Added ema-john-simple submodule"
+
+# Step 4: Push the changes to the remote repository
+git push origin main
+# Example: git push origin main
+
+# After initializing the submodule, you can follow these optional steps to make changes:
+
+# Step 5: Navigate to the submodule directory
+cd "Milestone 8 - Simple React/ema-john-simple"
+# Example: cd "Milestone 8 - Simple React/ema-john-simple"
+
+# Step 6: Make changes to the submodule files as needed
+
+# Step 7: Stage the changes
+git add .
+# Example: git add .
+
+# Step 8: Commit the changes in the submodule
+git commit -m "Made changes to ema-john-simple submodule"
+# Example: git commit -m "Made changes to ema-john-simple submodule"
+
+# Step 9: Push the changes to the submodule's repository
+git push origin main
+# Example: git push origin main
+
+# Step 10: Go back to the parent repository's root
+cd ../../
+# Example: cd "../../"
+
+# Step 11: Stage the updated submodule reference in the parent repository
+git add .
+# Example: git add .
+
+# Step 12: Commit the updated submodule reference
+git commit -m "Updated ema-john-simple submodule reference"
+# Example: git commit -m "Updated ema-john-simple submodule reference"
+
+# Step 13: Push the changes to the parent repository's remote
+git push origin main
+# Example: git push origin main
