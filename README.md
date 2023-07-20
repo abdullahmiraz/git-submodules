@@ -50,6 +50,8 @@ git add .
 git commit -m "Updated ema-john-simple submodule reference"
 # Example: git commit -m "Updated ema-john-simple submodule reference"
 
+Please note that Steps 5 to 13 are optional and intended for making changes to the submodule and updating the parent repository to reflect those changes. If you only want to initialize the submodule and don't need to make any changes immediately, you can skip those optional steps.
+
 # Step 13: Push the changes to the parent repository's remote
 git push origin main
 # Example: git push origin main
